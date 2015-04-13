@@ -5,6 +5,7 @@ This is a quick OVS/Mininet lab for testing the latest OVS features.
 
 **Requirements**
 
+
 1. VirtualBox. Install from https://www.virtualbox.org/wiki/Downloads
 
 2. Vagrant v1.6.3 or above. Install from http://www.vagrantup.com/downloads.html
@@ -16,12 +17,14 @@ This is a quick OVS/Mininet lab for testing the latest OVS features.
 
 **Installation**
 
+
 1. Clone this repo and cd to it
 
 2. Run 'vagrant up'
 
 
 **Lab**
+
 
 ![Lab](https://github.com/therandomsecurityguy/openvswitch-vagrant-lab/blob/master/lab-connectivity.png)
 
@@ -34,11 +37,14 @@ For example: ‘vagrant ssh internet’, or ’vagrant ssh server1’ and then g
 
 **Stopping and starting Vagrant VMs**
 
+
 To suspend your VMs, run 'vagrant suspend'. To shut them down, run
 'vagrant halt'.
 
 
 **Viewing VM status**
+
+Run the following:
 
 'vagrant status'
 
