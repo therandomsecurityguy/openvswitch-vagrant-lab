@@ -23,15 +23,10 @@ This is a quick OVS/Mininet lab for testing the latest OVS features.
 
 **Lab**
 
+![Lab](https://github.com/therandomsecurityguy/openvswitch-vagrant-lab/blob/master/lab-connectivity.png)
 
-+-----------+                                                    +-----------+
-|           |192.168.1.10/24    +------------+    192.168.2.20/24|           |
-|  server1  |-------------------|  Internet  |-------------------|  server2  |
-|           |                   +------------+                   |           |
-+-----------+                                                    +-----------+
 
-Two servers are spawned via Vagrant. They are Ubuntu VMs with mininet and OVS 2.1.2 installed. The Internet server is really a VM with IP forwarding enabled. All networks above are implemented as VirtualBox internal networks which are not directly accessible
-from anywhere else including your local machine. However, you can SSH to any
+Two servers are spawned via Vagrant. They are Ubuntu VMs with mininet and OVS 2.1.2 installed. The Internet server is really a VM with IP forwarding enabled. All networks above are implemented as VirtualBox internal networks which are not directly accessible from anywhere else including your local machine. However, you can SSH to any
 of the three VMs using ‘vagrant ssh’. 
 
 For example: ‘vagrant ssh internet’, or ’vagrant ssh server1’ and then get to the internal networks from there.
